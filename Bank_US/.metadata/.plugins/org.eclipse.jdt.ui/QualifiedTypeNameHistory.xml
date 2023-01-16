@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.mockito.Mock"/>
+    <fullyQualifiedTypeName name="com.example.Bankmangement.service.impl.LoanServiceImpl"/>
+    <fullyQualifiedTypeName name="org.mockito.junit.jupiter.MockitoSettings"/>
+    <fullyQualifiedTypeName name="org.mockito.InjectMocks"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.test.mock.mockito.MockBeans"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.test.mock.mockito.MockBean"/>
+    <fullyQualifiedTypeName name="org.apache.jasper.tagplugins.jstl.core.When"/>
+    <fullyQualifiedTypeName name="com.example.Bankmangement.entity.User"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
+    <fullyQualifiedTypeName name="java.util.stream.Stream"/>
+    <fullyQualifiedTypeName name="com.example.Bankmangement.repository.LoanRepository"/>
+    <fullyQualifiedTypeName name="com.example.Bankmangement.entity.Loan"/>
+</qualifiedTypeNameHistroy>

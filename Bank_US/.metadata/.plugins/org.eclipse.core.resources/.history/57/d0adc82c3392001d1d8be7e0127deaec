@@ -1,0 +1,59 @@
+package com.example.Bankmangement.service.impl;
+
+import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.Mockito.when;
+
+import java.util.Date;
+import java.util.LinkedHashSet;
+import java.util.Set;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoSettings;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.boot.test.mock.mockito.MockBeans;
+
+import com.example.Bankmangement.entity.Role;
+import com.example.Bankmangement.entity.User;
+import com.example.Bankmangement.repository.LoanRepository;
+import com.example.Bankmangement.repository.UserRepository;
+
+class LoanServiceImplTest {
+	
+	@Autowired
+	LoanServiceImpl loanServiceImpl;
+	
+	@MockBean
+	LoanRepository loanRepository;
+	
+	@MockBean
+     UserRepository userRepository;
+
+	@Test
+    public void applyLoanTest() {
+		long  id=1;long roleid=1;
+		long number=99;
+		Set<Role> roles=new LinkedHashSet<>();
+				roles.add(new Role(roleid,"admin"));
+		 when(userRepository.findById(id)).thenReturn(Stream.of(new 
+				 
+					 User( id, "samba", "Samba123",  "1234","klakada", "a.p", "india",
+							"sam@gmail.com", "pan1234", 99234, new Date(), "savings", Set<Role> roles) {
+				 
+				 
+				 
+				 User( id,	"current",	
+				 "kalakada",	number,	"India",
+				 new Date(),	"samba@gmail.com",	"samba",	"pansamba12",	
+				 "$2a$10$.ytqsg71lhJdMBjsomh1O.WAcdUpMjuFM5/4j0Qki0a39Qws93fIm",
+				 "andhra",	"samba123")))
+		 .collect(Collectors.toList());
+				 
+		
+	}
+
+}
